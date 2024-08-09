@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+#root {
+	height: 100vh;
+}
+
+.nav-transition-700-ease {
+	transition: background-color 500ms ease-in-out, padding 500ms ease-in-out;
+}

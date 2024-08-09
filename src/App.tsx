@@ -1,13 +1,8 @@
-import { Button } from "antd";
+import { Home } from "./view/home";
+import "./App.css";
 
 function App() {
-  return (
-    <>
-      <div>
-        <Button>测试</Button>
-      </div>
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
