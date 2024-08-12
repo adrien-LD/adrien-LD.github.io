@@ -1,11 +1,11 @@
+const technologyStack = ["JS", "CSS", "React", "Vue"];
+
 export const TechnologyStackPanel = () => {
-  console.log("technology-stack-panel");
   return (
-    <div>
-      <div className="mb-20px">test</div>
-      <div className="mb-20px">test</div>
-      <div className="mb-20px">test</div>
-      <div className="mb-20px">test</div>
+    <div className="mx-a pos-fixed shadow-2xl w-[1110px] h-[728px]">
+      {technologyStack.map((item) => (
+        <div key={item}>{item}</div>
+      ))}
     </div>
   );
 };

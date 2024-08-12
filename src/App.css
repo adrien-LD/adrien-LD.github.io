@@ -1,13 +1,11 @@
-* {
-	box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-	margin: 0px;
-}
-
+html,
+body,
 #root {
-	height: 100vh;
+	height: 100%;
 }
 
 .nav-transition-700-ease {

@@ -12,15 +12,15 @@ export const Home = () => {
         className="h-full bg-repeat bg-center bg-cover"
         style={{ backgroundImage: `url(${HomeBg})` }}
       >
-        <div className="pos-absolute pos-inset-x-none pos-inset-y-none flex items-center justify-center">
-          <div className="c-white font-500 text-32px">
+        <div className="absolute -top-2/4 -right-0 flex items-center justify-centers">
+          <div className="text-white font-medium text-[32px]">
             <Writing texts={["人生是旷野，不是轨道"]} cursorChar={"_"} />
           </div>
         </div>
+        {/* <main>
+          <TechnologyStackPanel />
+        </main> */}
       </div>
-      <main>
-        <TechnologyStackPanel />
-      </main>
     </Layout>
   );
 };
